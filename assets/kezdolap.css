@@ -1,0 +1,16 @@
+.logo {
+    background-image: url("../Twin\ Peaks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(36, 36, 35);
+    color: aliceblue;
+}
