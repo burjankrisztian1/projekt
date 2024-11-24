@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    justify-content: center; /* Flexbox középre igazítás */
+  }
+
+.nav-item .nav-link {
+    transition: color 0.2s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff7f00;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.elso_szekcio {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.5)), url('./images/bg2.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.elso_szekcio_szoveg {
+    color: rgb(255 237 213);
+    text-align: center;
+}
+
+.elso_szekcio_gomb {
+    margin-top: 10px;
+    background-color: #ff7f00;
+    color: rgb(255 237 213);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.elso_szekcio_gomb:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+.elso_szekcio_gomb:focus {
+    outline: none;
+}
+
+.masodik_szekcio{
+    margin-top: 45px;
+}
+
+.masodik_szekcio_container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+.masodik_szekcio_kep {
+    max-width: 100%;
+    max-height: 450px;
+    margin-left: 285px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #e65c00;
+}
+  
+.h2_masodik_szekcio {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 35px;
+}
+
+
+.ul_masodik_szekcio {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+  }
+  
+.li_masodik_szekcio {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.1s ease, border-color 0.1s ease;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.strong_masodik_szekcio {
+    font-size: 18px;
+    display: block;
+}
+  
+  
+.li_masodik_szekcio:hover {
+    background-color: #e65c00;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.strong_masodik_szekcio {
+    margin-bottom: 7px;
+    display: block;
+  }
+
+.harmadik_szekcio {
+    margin-top: 100px;
+}
+
+
+
+.footer_szekcio {
+    background-color: #000000;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+  }
+  
+.footer_szekcio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer_szekcio .row {
+    width: 100%;
+    max-width: 1200px;
+}
