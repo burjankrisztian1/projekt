@@ -28,9 +28,7 @@ function text_csere(nyelv) {
   fetch('assets/adatok/messages.json')
     .then(response => response.ok ? response.json() : Promise.reject('Failed to load JSON'))
     .then(data => {
-      console.log(nyelv);
       const nyelv_adatok = data[nyelv];
-      console.log(nyelv_adatok);
 
       Object.keys(elemek).forEach(key => {
         const elem = document.getElementById(elemek[key]);
@@ -39,7 +37,7 @@ function text_csere(nyelv) {
       }
     )
     .catch(error => {
-      console.error('Error fetching or processing the messages.json file:', error);
+      console.error('Error: ', error);
     });
 }
 
