@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-nav {
-    justify-content: center; /* Flexbox center alignment */
+    justify-content: center; 
 }
 
 .nav-item .nav-link {
@@ -215,3 +215,18 @@ body {
         font-size: 0.8rem;
     }
 }
+
+
+
+@media (max-width: 992px) {
+    .navbar-nav.ms-2.d-sm-inline-block.d-lg-none {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-left: 10px;
+    }
+  }
+  

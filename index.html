@@ -6,63 +6,74 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-  
   <title>Olümposz Kávézó</title>
 </head>
+
 <body>
   
   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ölümposz Kávézó</a>
+      <a class="navbar-brand" href="#" id="navbar_brand_text">Ölümposz Kávézó</a>
   
-      <!-- Telefon -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+      <div class="d-flex">
+
+        <div class="navbar-nav ms-2 d-sm-inline-block d-lg-none">
+          <a href="#" onclick="valtas()"><img src="assets/images/hu.png" class="img-fluid" id="zaszlo" style="max-width: 30px;"></a>
+        </div>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
   
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Kezdőlap</a>
+            <a class="nav-link active" href="#" id = "navbar_kezdolap_text">Kezdőlap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Rólunk</a>
+            <a class="nav-link active" href="#" id = "navbar_rolunk_text">Rólunk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Webshop</a>
+            <a class="nav-link active" href="#" id = "navbar_webshop_text">Webshop</a>
           </li>
         </ul>
-      </div>
-  
-      <div class="navbar-nav ms-auto d-none d-lg-flex">
-        <a href=""><img src="assets/images/hungary.png" class="img-fluid" style="max-width: 30px;"></a>
+      
+        <div class="navbar-nav ms-auto d-none d-lg-inline-block">
+          <a href="#" onclick="valtas()"><img src="assets/images/hu.png" class="img-fluid" id="zaszlo_2" style="max-width: 30px;"></a>
+        </div>
       </div>
     </div>
   </nav>
-
+  
+  
+  
+  
+  
+  
   <section class="elso_szekcio">
-    <h1 class="elso_szekcio_szoveg">Üdvözlünk az Olümposz Kávézóban</h1>
-    <button class="elso_szekcio_gomb">Webshop</button>
+    <h1 class="elso_szekcio_szoveg" id = "elso_szekcio_szoveg_text">Üdvözlünk az Olümposz Kávézóban</h1>
+    <button class="elso_szekcio_gomb" id = "elso_szekcio_gomb_text">Webshop</button>
   </section>
 
   <section class="masodik_szekcio">
     <div class="masodik_szekcio_container">
       <img src="assets/images/kep2.jpeg" class="masodik_szekcio_kep">
       <div class="text-content">
-        <h2 class="h2_masodik_szekcio">Miért válaszd az Olümposz Kávézót?</h2>
+        <h2 class="h2_masodik_szekcio" id = "h2_masodik_szekcio_text">Miért válaszd az Olümposz Kávézót?</h2>
         <ul class="ul_masodik_szekcio">
           <li class="li_masodik_szekcio">
-            <strong class="strong_masodik_szekcio">Prémium kávébabok</strong>
-            <p class="p_masodik_szekcio">A legjobb ültetvényekről válogatva, a világ minden tájáról.</p>
+            <strong class="strong_masodik_szekcio" id = "strong_masodik_szekcio_text_1">Prémium kávébabok</strong>
+            <p class="p_masodik_szekcio" id = "p_masodik_szekcio_text_1">A legjobb ültetvényekről válogatva, a világ minden tájáról.</p>
           </li>
           <li class="li_masodik_szekcio">
-            <strong class="strong_masodik_szekcio">Gazdag és egyedi ízek</strong>
-            <p class="p_masodik_szekcio">Tapasztald meg a szakértelemmel főzött kávé autentikus ízét.</p>
+            <strong class="strong_masodik_szekcio" id = "strong_masodik_szekcio_text_2">Gazdag és egyedi ízek</strong>
+            <p class="p_masodik_szekcio" id = "p_masodik_szekcio_text_2">Tapasztald meg a szakértelemmel főzött kávé autentikus ízét.</p>
           </li>
           <li class="li_masodik_szekcio">
-            <strong class="strong_masodik_szekcio">Barátságos hangulat</strong>
-            <p class="p_masodik_szekcio">Tökéletes hely a pihenésre, munkára vagy a barátokkal való találkozásra.</p>
+            <strong class="strong_masodik_szekcio" id = "strong_masodik_szekcio_text_3">Barátságos hangulat</strong>
+            <p class="p_masodik_szekcio" id = "p_masodik_szekcio_text_3">Tökéletes hely a pihenésre, munkára vagy a barátokkal való találkozásra.</p>
           </li>
         </ul>
       </div>
