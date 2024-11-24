@@ -1,18 +1,20 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .navbar-nav {
-    justify-content: center; /* Flexbox középre igazítás */
-  }
+    justify-content: center; /* Flexbox center alignment */
+}
 
 .nav-item .nav-link {
     transition: color 0.2s ease;
@@ -20,10 +22,6 @@ body{
 
 .nav-item .nav-link:hover {
     color: #ff7f00;
-}
-
-.navbar {
-    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .elso_szekcio {
@@ -43,6 +41,8 @@ body{
 .elso_szekcio_szoveg {
     color: rgb(255 237 213);
     text-align: center;
+    font-size: 3rem;
+    padding: 10px;
 }
 
 .elso_szekcio_gomb {
@@ -54,6 +54,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-size: 1rem;
 }
 
 .elso_szekcio_gomb:hover {
@@ -65,41 +66,42 @@ body{
     outline: none;
 }
 
-.masodik_szekcio{
+.masodik_szekcio {
     margin-top: 45px;
+    padding: 0 20px;
 }
 
 .masodik_szekcio_container {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: flex-start;
-  }
-  
+    justify-content: center;
+}
+
 .masodik_szekcio_kep {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 450px;
-    margin-left: 285px;
     border-radius: 12px;
     box-shadow: 1px 1px 10px #e65c00;
 }
-  
+
 .h2_masodik_szekcio {
-    margin: 0;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin: 25px 0 35px 0;
+    text-align: center;
     font-weight: bold;
     color: white;
-    margin-bottom: 35px;
+    font-size: 1.5rem;
 }
-
 
 .ul_masodik_szekcio {
     list-style-type: none;
     padding-left: 20px;
     margin: 0;
     color: white;
-  }
-  
+    font-size: 1rem;
+}
+
 .li_masodik_szekcio {
     margin-bottom: 25px;
     padding: 10px;
@@ -108,52 +110,108 @@ body{
     cursor: pointer;
     user-select: none;
 }
-  
-.strong_masodik_szekcio {
-    font-size: 18px;
-    display: block;
-}
-  
-  
+
 .li_masodik_szekcio:hover {
     background-color: #e65c00;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-4px);
 }
 
 .strong_masodik_szekcio {
     margin-bottom: 7px;
+    font-size: 18px;
     display: block;
-  }
+}
 
 .harmadik_szekcio {
     margin-top: 100px;
+    padding: 0 20px;
+    text-align: center;
 }
-
-
 
 .footer_szekcio {
     background-color: #000000;
     border-top: 1px solid white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .footer-text {
+    padding: 20px 0;
+}
+
+.footer-text {
     color: white;
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     margin: 5px 0;
     line-height: 1.4;
-  }
-  
+    text-align: center;
+}
+
 .footer_szekcio .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  
+
 .footer_szekcio .row {
     width: 100%;
     max-width: 1200px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .elso_szekcio {
+        height: auto;
+        padding: 20px;
+    }
+
+    .elso_szekcio_szoveg {
+        font-size: 2rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .masodik_szekcio_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .masodik_szekcio_kep {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1.25rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .elso_szekcio_szoveg {
+        font-size: 1.5rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.8rem;
+        padding: 10px 16px;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.8rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.8rem;
+    }
 }
