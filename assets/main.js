@@ -25,7 +25,7 @@ function text_csere(nyelv) {
     p_masodik_szekcio_3: 'p_masodik_szekcio_text_3',
   };
 
-  fetch('assets/adatok/messages.json')
+  fetch('http://burjankrisztian.hu/messages.json') //assets/adatok/messages.json
     .then(response => response.ok ? response.json() : Promise.reject('Failed to load JSON'))
     .then(data => {
       const nyelv_adatok = data[nyelv];
