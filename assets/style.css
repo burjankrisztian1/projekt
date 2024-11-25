@@ -124,9 +124,44 @@ body {
 
 .harmadik_szekcio {
     margin-top: 100px;
-    padding: 0 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
+
+.harmadik_szekcio {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.harmadik_szekcio_h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.harmadik_szekcio_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+.harmadik_szekcio_img {
+    max-width: 80%;
+    margin-left: -50px;
+  }
+  
+.harmadik_szekcio_h3 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    max-width: 300px;
+}
+  
+
 
 .footer_szekcio {
     background-color: #000000;
@@ -154,7 +189,21 @@ body {
     max-width: 1200px;
 }
 
-/* Responsive Breakpoints */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .elso_szekcio {
         height: auto;

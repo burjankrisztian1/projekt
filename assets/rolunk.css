@@ -116,9 +116,59 @@ body{
     display: block;
   }
 
-.harmadik_szekcio {
-    margin-top: 100px;
+
+
+.harmadik_szekcio{
+    margin-top: 45px;
 }
+
+.harmadik_szekcio_container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+.harmadik_szekcio_kep {
+    max-width: 100%;
+    max-height: 450px;
+    margin-left: 285px;
+    border-radius: 12px;
+}
+  
+.h3_harmadik_szekcio {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 35px;
+}
+
+
+.ul_harmadik_szekcio {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+  }
+  
+.li_harmadik_szekcio {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+}
+  
+.strong_harmadik_szekcio {
+    font-size: 18px;
+    display: block;
+}
+  
+
+.strong_harmadik_szekcio {
+    margin-bottom: 7px;
+    display: block;
+  }
+
 
 
 
