@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    justify-content: center; 
+}
+
+.nav-item .nav-link {
+    transition: color 0.2s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff7f00;
+}
+
+.elso_szekcio {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.5)), url('./images/rolunk.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.elso_szekcio_szoveg {
+    color: rgb(255 237 213);
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.elso_szekcio_gomb {
+    margin-top: 10px;
+    background-color: #ff7f00;
+    color: rgb(255 237 213);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.elso_szekcio_gomb:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+.elso_szekcio_gomb:focus {
+    outline: none;
+}
+
+.masodik_szekcio {
+    margin-top: 45px;
+    padding: 0 20px;
+}
+
+.masodik_szekcio_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.card{
+    color: #000000;
+    background-color: #f1eded;
+    border: 1px solid #fdf1f1;
+
+
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #F15B21;
+}
+
+h5{
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Iceberg';
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #F15B21;
+}
+
+.strong_masodik_szekcio {
+    margin-bottom: 7px;
+    font-size: 18px;
+    display: block;
+}
+
+
+
+.harmadik_szekcio {
+    margin-top: 100px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer_szekcio {
+    background-color: #000000;
+    border-top: 1px solid white;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.footer_szekcio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_szekcio .row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .elso_szekcio {
+        height: auto;
+        padding: 20px;
+    }
+
+    .elso_szekcio_szoveg {
+        font-size: 2rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .masodik_szekcio_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .masodik_szekcio_kep {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1.25rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .elso_szekcio_szoveg {
+        font-size: 1.5rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.8rem;
+        padding: 10px 16px;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.8rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar-nav.ms-2.d-sm-inline-block.d-lg-none {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-left: 10px;
+    }
+  }
+  
