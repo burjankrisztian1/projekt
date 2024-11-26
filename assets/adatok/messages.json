@@ -15,6 +15,12 @@
             "strong_masodik_szekcio_text_3": "Barátságos hangulat",
             "p_masodik_szekcio_text_3": "Tökéletes hely a pihenésre, munkára vagy a barátokkal való találkozásra.",
             "harmadik_szekcio_h1_text": "Heti Különlegességek"
+        },
+        "webshop":{
+            "navbar_brand_text_webshop": "Ölümposz Kávézó",
+            "navbar_kezdolap_text_webshop": "Kezdőlap",
+            "navbar_rolunk_text_webshop": "Rólunk",
+            "navbar_webshop_text_webshop": "Webshop"
         }
     },
     "en": {
@@ -33,6 +39,12 @@
             "strong_masodik_szekcio_text_3": "Cozy Atmosphere",
             "p_masodik_szekcio_text_3": "Perfect place to relax, work, or catch up with friends.",
             "harmadik_szekcio_h1_text": "Weekly Specials"
+        },
+        "webshop":{
+            "navbar_brand_text_webshop": "Olympus Café",
+            "navbar_kezdolap_text_webshop": "Homepage",
+            "navbar_rolunk_text_webshop": "About Us",
+            "navbar_webshop_text_webshop": "Webshop"
         }
     }
   }

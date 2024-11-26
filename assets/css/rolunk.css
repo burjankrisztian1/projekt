@@ -1,18 +1,20 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .navbar-nav {
-    justify-content: center; /* Flexbox középre igazítás */
-  }
+    justify-content: center; 
+}
 
 .nav-item .nav-link {
     transition: color 0.2s ease;
@@ -22,8 +24,30 @@ body{
     color: #ff7f00;
 }
 
-.navbar {
-    border-bottom: 1px solid rgb(255, 255, 255);
+.footer_szekcio {
+    background-color: #000000;
+    border-top: 1px solid white;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.footer_szekcio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_szekcio .row {
+    width: 100%;
+    max-width: 1200px;
 }
 
 .elso_szekcio {
@@ -120,6 +144,7 @@ body{
 
 .harmadik_szekcio{
     margin-top: 45px;
+    margin-bottom: 50px;
 }
 
 .harmadik_szekcio_container {

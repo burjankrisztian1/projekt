@@ -34,7 +34,7 @@
       </div>
   
       <div class="navbar-nav ms-auto">
-        <a href=""><img src="assets/images/egyeb/hu.png" class="img-fluid" style="max-width: 30px;"></a>
+        <a href=""><img src="assets/images/hungary.png" class="img-fluid" style="max-width: 30px;"></a>
       </div>
     </div>
   </nav>

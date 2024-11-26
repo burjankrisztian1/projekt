@@ -9,7 +9,7 @@ function nem_suti(name) {
 
 
 function slider_text_csere(nyelv) {
-    fetch('assets/adatok/termekek.json') 
+    fetch('assets/adatok/heti.json') 
     .then(response => response.ok ? response.json() : Promise.reject('Failed to load JSON'))
     .then(data => {
       const termek_adatok = data[nyelv];
@@ -45,13 +45,27 @@ function slider_text_csere(nyelv) {
 
         if (kozepso_kep_path.includes(elso_termek_kep_path)) {
             heti_termek_nev.textContent = elso_termek_nev
-            heti_termek_ar.textContent = `${elso_termek_ar} ${termek_penznem_display}`
+            if (termek_penznem == "HUF") {
+              heti_termek_ar.textContent = `${elso_termek_ar} ${termek_penznem_display}`
+            }else{
+              heti_termek_ar.textContent = `${termek_penznem_display}${elso_termek_ar}`
+            }
         }else if(kozepso_kep_path.includes(masodik_termek_kep_path)){
             heti_termek_nev.textContent = masodik_termek_nev
             heti_termek_ar.textContent = `${masodik_termek_ar} ${termek_penznem_display}`
+            if (termek_penznem == "HUF") {
+              heti_termek_ar.textContent = `${elso_termek_ar} ${termek_penznem_display}`
+            }else{
+              heti_termek_ar.textContent = `${termek_penznem_display}${elso_termek_ar}`
+            }
         }else if(kozepso_kep_path.includes(harmadik_termek_kep_path)){
             heti_termek_nev.textContent = harmadik_termek_nev
             heti_termek_ar.textContent = `${harmadik_termek_ar} ${termek_penznem_display}`
+            if (termek_penznem == "HUF") {
+              heti_termek_ar.textContent = `${elso_termek_ar} ${termek_penznem_display}`
+            }else{
+              heti_termek_ar.textContent = `${termek_penznem_display}${elso_termek_ar}`
+            }
         }
       }
     )
@@ -61,7 +75,7 @@ function slider_text_csere(nyelv) {
 }
 
 function start(nyelv) {
-    fetch('assets/adatok/termekek.json') 
+    fetch('assets/adatok/heti.json') 
     .then(response => response.ok ? response.json() : Promise.reject('Failed to load JSON'))
     .then(data => {
       const termek_adatok = data[nyelv];

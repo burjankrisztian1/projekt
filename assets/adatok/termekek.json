@@ -1,39 +1,386 @@
 {
-    "hu": {
-        "termek_penznem": "HUF",
-        "elso_termek":{
-            "termek_nev": "Coffee Frappuccino",
-            "termek_ar": "1740",
-            "termek_kep_path": "assets/images/termekek/kave_1.webp"
-        },
-        "masodik_termek":{
-            "termek_nev": "Caramel Cream Frappuccino",
-            "termek_ar": "1740",
-            "termek_kep_path": "assets/images/termekek/kave_2.webp"
-        },
-        "harmadik_termek":{
-            "termek_nev": "Strawberries & Cream Frappuccino",
-            "termek_ar": "1840",
-            "termek_kep_path": "assets/images/termekek/kave_3.webp"
-        }
+    "1_termek": {
+        "termek_nev": "Macadamia Oat Latte",
+        "termek_kategoria": "seasonal_favorites",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.58",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2024-02/Caramelised_Macadamia_Oat_Latte_2024_Glass_Green.jpg.webp?itok=xjnVSmfj",
+        "termek_id": "1"
     },
-    "en": {
-        "termek_penznem": "USD",
-        "elso_termek":{
-            "termek_nev": "Coffee Frappuccino",
-            "termek_ar": "4.4",
-            "termek_kep_path": "assets/images/termekek/kave_1.webp"
-        },
-        "masodik_termek":{
-            "termek_nev": "Caramel Cream Frappuccino",
-            "termek_ar": "4.4",
-            "termek_kep_path": "assets/images/termekek/kave_2.webp"
-        },
-        "harmadik_termek":{
-            "termek_nev": "Strawberries & Cream Frappuccino",
-            "termek_ar": "4.7",
-            "termek_kep_path": "assets/images/termekek/kave_3.webp"
-        }
+    "2_termek": {
+        "termek_nev": "Almond Biscotti Oat Latte",
+        "termek_kategoria": "seasonal_favorites",
+        "termek_ar_usd": "4.43",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2024-02/Almond_Biscotti_Oat_Latte_2024_Mug_Green.jpg.webp?itok=4wDctexM",
+        "termek_ar_huf": "1740",
+        "termek_id": "2"
+    },
+    "3_termek": {
+        "termek_nev": "Chai Tea Oat Latte",
+        "termek_kategoria": "seasonal_favorites",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2024-02/Chai_Tea_Oat_Latte_2024_Mug_Green.jpg.webp?itok=5fo8uZ3w",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "3"
+    },
+    "4_termek": {
+        "termek_nev": "Golden Caramel White Hot Chocolate",
+        "termek_kategoria": "seasonal_favorites",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2024-02/Golden_Caramel_White_Hot_Chocolate_2024_Mug_Green.jpg.webp?itok=r0U7Z8dX",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "4"
+    },
+    "5_termek": {
+        "termek_nev": "Caffè Latte",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Latte.jpeg.webp?itok=fgIcfxc8",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "5"
+    },
+    "6_termek": {
+        "termek_nev": "Iced Caffè Latte",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Latte%20.jpeg.webp?itok=tnS4qarH",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "6"
+    },
+    "7_termek": {
+        "termek_nev": "Iced Starbucks Blonde Latte",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Starbucks%20Blonde%C2%AE%20Latte%20.jpeg.webp?itok=sCh-D7e_",
+        "termek_ar_huf": "1990",
+        "termek_ar_usd": "5.06",
+        "termek_id": "7"
+    },
+    "8_termek": {
+        "termek_nev": "Caffè Mocha",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Mocha.jpeg.webp?itok=wPSMlKEj",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "8"
+    },
+    "9_termek": {
+        "termek_nev": "Iced Caffè Mocha",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Mocha.jpeg.webp?itok=M04eXOnP",
+        "termek_ar_huf": "1940",
+        "termek_ar_usd": "4.94",
+        "termek_id": "9"
+    },
+    "10_termek": {
+        "termek_nev": "White Chocolate Mocha",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/White%20Chocolate%20Mocha.jpeg.webp?itok=NX_JH3DO",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "10"
+    },
+    "11_termek": {
+        "termek_nev": "Iced White Chocolate Mocha",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20White%20Chocolate%20Mocha.jpeg.webp?itok=mHpu959b",
+        "termek_ar_huf": "1940",
+        "termek_ar_usd": "4.94",
+        "termek_id": "11"
+    },
+    "12_termek": {
+        "termek_nev": "Latte Macchiato",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Latte%20Macchiato.jpeg.webp?itok=08vJgKCB",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "12"
+    },
+    "13_termek": {
+        "termek_nev": "Caramel Macchiato",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caramel%20Macchiato.jpeg.webp?itok=oB76qIZX",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "13"
+    },
+    "14_termek": {
+        "termek_nev": "Iced Caramel Macchiato",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caramel%20Macchiato.jpeg.webp?itok=a_COyZGj",
+        "termek_ar_huf": "1940",
+        "termek_ar_usd": "4.94",
+        "termek_id": "14"
+    },
+    "15_termek": {
+        "termek_nev": "Cappuccino",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Cappuccino.jpeg.webp?itok=6CQSj4il",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "15"
+    },
+    "16_termek": {
+        "termek_nev": "Classic Iced Cappuccino",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Classic%20Iced%20Cappuccino.jpeg.webp?itok=V_8R7y5Z",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "16"
+    },
+    "17_termek": {
+        "termek_nev": "Caffè Americano",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caffe%CC%80%20Americano.jpeg.webp?itok=RH71mSq-",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "17"
+    },
+    "18_termek": {
+        "termek_nev": "Iced Caffè Americano",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Iced%20Caffe%CC%80%20Americano.jpeg.webp?itok=j3mwopN5",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "18"
+    },
+    "19_termek": {
+        "termek_nev": "Espresso",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Espresso.jpeg.webp?itok=-sf52drb",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "19"
+    },
+    "20_termek": {
+        "termek_nev": "Espresso Macchiato",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Espresso%20Macchiato.jpeg.webp?itok=w6O1CArN",
+        "termek_ar_huf": "1440",
+        "termek_ar_usd": "3.66",
+        "termek_id": "20"
+    },
+    "21_termek": {
+        "termek_nev": "Espresso Con Panna",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Espresso%20Con%20Panna.jpeg.webp?itok=MG5-GaOh",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "21"
+    },
+    "22_termek": {
+        "termek_nev": "Flat White",
+        "termek_kategoria": "espresso_drinks",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2022-07/flatwhite-min2.jpg.webp?itok=UbSEdEp6",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "22"
+    },
+    "23_termek": {
+        "termek_nev": "Filter Coffee",
+        "termek_kategoria": "brewed_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Filter%20Coffee.jpeg.webp?itok=FvO51T9_",
+        "termek_ar_huf": "1090",
+        "termek_ar_usd": "2.77",
+        "termek_id": "23"
+    },
+    "24_termek": {
+        "termek_nev": "Cold Brew Coffee",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Cold%20Brew%20Coffee%20.jpeg.webp?itok=U6_c8ML_",
+        "termek_ar_huf": "1640",
+        "termek_ar_usd": "4.17",
+        "termek_id": "24"
+    },
+    "25_termek": {
+        "termek_nev": "Cold Brew Latte",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Cold%20Brew%20Latte.jpeg.webp?itok=gfBE7Sd3",
+        "termek_ar_huf": "1700",
+        "termek_ar_usd": "4.33",
+        "termek_id": "25"
+    },
+    "26_termek": {
+        "termek_nev": "Salted Caramel Cream Cold Brew",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2022-07/Salted_Caramel_Cream_Cold_Brew_G_GREEN-Deliveroo%201220x1200-min.jpg.webp?itok=B10v_K0B",
+        "termek_ar_huf": "2340",
+        "termek_ar_usd": "5.95",
+        "termek_id": "26"
+    },
+    "27_termek": {
+        "termek_nev": "Nitro Cold Brew",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Nitro%20Cold%20Brew.jpeg.webp?itok=Z2bAY5Fr",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "27"
+    },
+    "28_termek": {
+        "termek_nev": "Nitro Latte",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Nitro%20Latte.jpeg.webp?itok=9pG4FH2L",
+        "termek_ar_huf": "1540",
+        "termek_ar_usd": "3.92",
+        "termek_id": "28"
+    },
+    "29_termek": {
+        "termek_nev": "Nitro Cappuccino",
+        "termek_kategoria": "iced_coffee",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Nitro%20Cappuccino.jpeg.webp?itok=EJEaDrln",
+        "termek_ar_huf": "1540",
+        "termek_ar_usd": "3.92",
+        "termek_id": "29"
+    },
+    "30_termek": {
+        "termek_nev": "Mint Citrus Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Mint%20Citrus%20Tea.jpeg.webp?itok=xr9LyZRF",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "30"
+    },
+    "31_termek": {
+        "termek_nev": "Chai Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Chai%20Tea.jpeg.webp?itok=ufO8z0Xv",
+        "termek_ar_huf": "2390",
+        "termek_ar_usd": "6.08",
+        "termek_id": "31"
+    },
+    "32_termek": {
+        "termek_nev": "Hibiscus Herbal Blend Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Hibiscus%20Herbal%20Blend%20Tea.jpeg.webp?itok=iJyDAPzM",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "32"
+    },
+    "33_termek": {
+        "termek_nev": "English Breakfast Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/English%20Breakfast%20Tea.jpeg.webp?itok=ymvvshyv",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "33"
+    },
+    "34_termek": {
+        "termek_nev": "Emperor's Clouds & Mist Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Emperor%27s%20Clouds%20%26%20Mist%20Tea.jpeg.webp?itok=5O0DViD0",
+        "termek_ar_huf": "2590",
+        "termek_ar_usd": "6.59",
+        "termek_id": "34"
+    },
+    "35_termek": {
+        "termek_nev": "Earl Grey Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Earl%20Grey%20Tea_0.jpeg.webp?itok=90YKYqv9",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "35"
+    },
+    "36_termek": {
+        "termek_nev": "Youthberry Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Youthberry%20Tea.jpeg.webp?itok=Vr89T6OI",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "36"
+    },
+    "37_termek": {
+        "termek_nev": "Jasmine Pearls Tea",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Jasmine%20Pearls%20Tea.jpeg.webp?itok=gKz-S1AF",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "37"
+    },
+    "38_termek": {
+        "termek_nev": "Teavana Tea Latte",
+        "termek_kategoria": "teavana_brewed_tea",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Classic%20Chai%20Tea%20Latte.jpeg.webp?itok=GdHKj8a6",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "38"
+    },
+    "39_termek": {
+        "termek_nev": "Caramel Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caramel%20Frappuccino%C2%AE%20.jpeg.webp?itok=Q8Z8SxtD",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "39"
+    },
+    "40_termek": {
+        "termek_nev": "Coffee Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Coffee%20Frappuccino%C2%AE%20.jpeg.webp?itok=Khv1siKE",
+        "termek_ar_huf": "1450",
+        "termek_ar_usd": "3.69",
+        "termek_id": "40"
+    },
+    "41_termek": {
+        "termek_nev": "Java Chip Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Java%20Chip%20Frappuccino%C2%AE.jpeg.webp?itok=t82pUNbB",
+        "termek_ar_huf": "2190",
+        "termek_ar_usd": "5.57",
+        "termek_id": "41"
+    },
+    "42_termek": {
+        "termek_nev": "Espresso Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Espresso%20Frappuccino%C2%AE%20.jpeg.webp?itok=AsvfYbzK",
+        "termek_ar_huf": "1450",
+        "termek_ar_usd": "3.69",
+        "termek_id": "42"
+    },
+    "43_termek": {
+        "termek_nev": "Mocha Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Mocha%20Frappuccino%C2%AE%20.jpeg.webp?itok=_J_49MbZ",
+        "termek_ar_huf": "1450",
+        "termek_ar_usd": "3.69",
+        "termek_id": "43"
+    },
+    "44_termek": {
+        "termek_nev": "White Chocolate Mocha Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/White%20Chocolate%20Mocha%20Frappuccino%C2%AE%20.jpeg.webp?itok=e9_dEmOG",
+        "termek_ar_huf": "1450",
+        "termek_ar_usd": "3.69",
+        "termek_id": "44"
+    },
+    "45_termek": {
+        "termek_nev": "Caramel Cream Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Caramel%20Cream%20Frappuccino%C2%AE%20.jpeg.webp?itok=FBJAuhOL",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "45"
+    },
+    "46_termek": {
+        "termek_nev": "Strawberries & Cream Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Strawberries%20%26%20Cream%20Frappuccino%C2%AE%20.jpeg.webp?itok=CQEG-QDi",
+        "termek_ar_huf": "1450",
+        "termek_ar_usd": "3.69",
+        "termek_id": "46"
+    },
+    "47_termek": {
+        "termek_nev": "Vanilla Cream Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Vanilla%20Cream%20Frappuccino%C2%AE%20.jpeg.webp?itok=A7ukH-oJ",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "47"
+    },
+    "48_termek": {
+        "termek_nev": "Chocolate Cream Frappuccino",
+        "termek_kategoria": "coffee_frappucino",
+        "termek_kep_path": "https://www.starbucks.hu/sites/starbucks-hu-pwa/files/styles/c04_image_text_grid_600x600/public/2021-11/Chocolate%20Cream%20Frappuccino%C2%AE%20.jpeg.webp?itok=tVehI8Io",
+        "termek_ar_huf": "1740",
+        "termek_ar_usd": "4.43",
+        "termek_id": "48"
     }
-  }
-  
+}
