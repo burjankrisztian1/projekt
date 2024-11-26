@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    justify-content: center; 
+}
+
+.nav-item .nav-link {
+    transition: color 0.2s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff7f00;
+}
+
+.elso_szekcio {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.5)), url('../images/kezdolap/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.elso_szekcio_szoveg {
+    color: rgb(255 237 213);
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.elso_szekcio_gomb {
+    margin-top: 10px;
+    background-color: #ff7f00;
+    color: rgb(255 237 213);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.elso_szekcio_gomb:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+.elso_szekcio_gomb:focus {
+    outline: none;
+}
+
+.masodik_szekcio {
+    margin-top: 45px;
+    padding: 0 20px;
+}
+
+.masodik_szekcio_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.masodik_szekcio_kep {
+    max-width: 90%;
+    max-height: 450px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #e65c00;
+}
+
+.h2_masodik_szekcio {
+    margin: 25px 0 35px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.ul_masodik_szekcio {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.li_masodik_szekcio {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.1s ease, border-color 0.1s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.li_masodik_szekcio:hover {
+    background-color: #e65c00;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.strong_masodik_szekcio {
+    margin-bottom: 7px;
+    font-size: 18px;
+    display: block;
+}
+
+
+.harmadik_szekcio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1200px;
+  }
+  
+.harmadik_szekcio_h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+.harmadik_szekcio_div_1 {
+    position: relative;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+  
+.harmadik_szekcio_div_2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+}
+  
+.harmadik_szekcio_div_3 {
+    flex: 0 0 auto;
+    text-align: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    position: relative;
+}
+  
+.harmadik_szekcio_div_3 img {
+    border-radius: 60px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+  
+.harmadik_szekcio_kozep img {
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+}
+  
+.harmadik_szekcio_bal img,
+.harmadik_szekcio_jobb img {
+    width: 200px;
+    height: auto;
+    opacity: 0.7;
+    transform: scale(0.8);
+}
+  
+.harmadik_szekcio_gomb {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    position: absolute;
+    z-index: 10;
+}
+  
+.harmadik_szekcio_kozep_h4{
+    color:white
+}
+  
+.harmadik_szekcio_elozo {
+    left: -50px;
+}
+  
+.harmadik_szekcio_kovetkezo {
+    right: -50px;
+}
+
+
+.harmadik_szekcio_kozep_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+.harmadik_szekcio_kozep_p {
+    margin: 0;
+    color: white;
+}
+  
+.harmadik_szekcio_kozep_gomb {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.harmadik_szekcio_kozep_gomb {
+    background-color: #ff7f00;
+    color: rgb(255 237 213);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.harmadik_szekcio_kozep_gomb:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+.harmadik_szekcio_kozep_gomb:focus {
+    outline: none;
+}
+
+
+
+.footer_szekcio {
+    background-color: #000000;
+    border-top: 1px solid white;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.footer_szekcio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_szekcio .row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .harmadik_szekcio_bal img,
+    .harmadik_szekcio_jobb img {
+        display: none;
+    }
+    .harmadik_szekcio_elozo {
+        left: 5%;
+    }
+    .harmadik_szekcio_kovetkezo {
+        right: 5%;
+    }
+    .harmadik_szekcio_kozep img {
+        width: 300px;
+    }
+    .harmadik_szekcio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+        margin-top: 50px;
+    }
+    
+    .harmadik_szekcio_h1 {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+    }
+    
+    .harmadik_szekcio_div_1 {
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .harmadik_szekcio_div_2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    
+    .harmadik_szekcio_div_3 {
+        flex: 0 0 auto;
+        text-align: center;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+        position: relative;
+    }
+    
+    .harmadik_szekcio_div_3 img {
+        border-radius: 60px;
+        transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+    
+    .harmadik_szekcio_kozep img {
+        width: 300px;
+        height: auto;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .harmadik_szekcio_bal img,
+    .harmadik_szekcio_jobb img {
+        width: 200px;
+        height: auto;
+        opacity: 0.7;
+        transform: scale(0.8);
+    }
+    
+    .harmadik_szekcio_gomb {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+        position: absolute;
+        z-index: 10;
+    }
+    
+    .harmadik_szekcio_kozep_h4 {
+        color: white;
+    }
+    
+    .harmadik_szekcio_elozo {
+        position: absolute;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+    
+    .harmadik_szekcio_kovetkezo {
+        position: absolute;
+        right: 5%;
+        transform: translateY(-50%);
+    }
+    
+    .harmadik_szekcio_kozep_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    .harmadik_szekcio_kozep_p {
+        margin: 0;
+        color: white;
+    }
+    
+    .harmadik_szekcio_kozep_gomb {
+        padding: 10px 20px;
+        background-color: #ff7f00;
+        color: rgb(255, 237, 213);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+    }
+    
+    .harmadik_szekcio_kozep_gomb:hover {
+        background-color: #e65c00;
+        transform: scale(1.05);
+    }
+    
+    .harmadik_szekcio_kozep_gomb:focus {
+        outline: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .elso_szekcio {
+        height: auto;
+        padding: 20px;
+    }
+
+    .elso_szekcio_szoveg {
+        font-size: 2rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .masodik_szekcio_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .masodik_szekcio_kep {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1.25rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .elso_szekcio_szoveg {
+        font-size: 1.5rem;
+    }
+
+    .elso_szekcio_gomb {
+        font-size: 0.8rem;
+        padding: 10px 16px;
+    }
+
+    .h2_masodik_szekcio {
+        font-size: 1rem;
+    }
+
+    .ul_masodik_szekcio {
+        font-size: 0.8rem;
+    }
+
+    .li_masodik_szekcio {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar-nav.ms-2.d-sm-inline-block.d-lg-none {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-left: 10px;
+    }
+  }
+  

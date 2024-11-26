@@ -18,9 +18,10 @@ function text_csere(nyelv) {
     p_masodik_szekcio_2: 'p_masodik_szekcio_text_2',
     strong_masodik_szekcio_3: 'strong_masodik_szekcio_text_3',
     p_masodik_szekcio_3: 'p_masodik_szekcio_text_3',
+    harmadik_szekcio_h1: 'harmadik_szekcio_h1_text',
   };
 
-  fetch('http://burjankrisztian.hu/messages.json') //assets/adatok/messages.json
+  fetch('assets/adatok/messages.json') //assets/adatok/messages.json
     .then(response => response.ok ? response.json() : Promise.reject('Failed to load JSON'))
     .then(data => {
       const nyelv_adatok = data[nyelv];
@@ -38,15 +39,15 @@ function text_csere(nyelv) {
 function start() {
   if (nem_suti('nyelv') === 'hu') {
     var zaszlo = document.getElementById('zaszlo');
-    zaszlo.src = 'assets/images/hu.png';
+    zaszlo.src = 'assets/images/egyeb/hu.png';
     var zaszlo_2 = document.getElementById('zaszlo_2');
-    zaszlo_2.src = 'assets/images/hu.png';
+    zaszlo_2.src = 'assets/images/egyeb/hu.png';
     text_csere("hu")
   }else{
     var zaszlo = document.getElementById('zaszlo');
-    zaszlo.src = 'assets/images/usa.png';
+    zaszlo.src = 'assets/images/egyeb/usa.png';
     var zaszlo_2 = document.getElementById('zaszlo_2');
-    zaszlo_2.src = 'assets/images/usa.png';
+    zaszlo_2.src = 'assets/images/egyeb/usa.png';
     text_csere("en")
   }
 }
@@ -55,16 +56,16 @@ function start() {
 function valtas() {
   if (nem_suti('nyelv') === 'hu') {
     var zaszlo = document.getElementById('zaszlo');
-    zaszlo.src = 'assets/images/usa.png';
+    zaszlo.src = 'assets/images/egyeb/usa.png';
     var zaszlo_2 = document.getElementById('zaszlo_2');
-    zaszlo_2.src = 'assets/images/usa.png';
+    zaszlo_2.src = 'assets/images/egyeb/usa.png';
     localStorage.setItem('nyelv', 'en');
     text_csere("en")
   }else{
     var zaszlo = document.getElementById('zaszlo');
-    zaszlo.src = 'assets/images/hu.png';
+    zaszlo.src = 'assets/images/egyeb/hu.png';
     var zaszlo_2 = document.getElementById('zaszlo_2');
-    zaszlo_2.src = 'assets/images/hu.png';
+    zaszlo_2.src = 'assets/images/egyeb/hu.png';
     localStorage.setItem('nyelv', 'hu');
     text_csere("hu")
   }
@@ -75,6 +76,3 @@ if (!nem_suti("nyelv")) {
   localStorage.setItem('nyelv', 'hu');
 }
 start()
-
-
-

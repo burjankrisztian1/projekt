@@ -1,0 +1,39 @@
+{
+    "hu": {
+        "termek_penznem": "HUF",
+        "elso_termek":{
+            "termek_nev": "Coffee Frappuccino",
+            "termek_ar": "1740",
+            "termek_kep_path": "assets/images/termekek/kave_1.webp"
+        },
+        "masodik_termek":{
+            "termek_nev": "Caramel Cream Frappuccino",
+            "termek_ar": "1740",
+            "termek_kep_path": "assets/images/termekek/kave_2.webp"
+        },
+        "harmadik_termek":{
+            "termek_nev": "Strawberries & Cream Frappuccino",
+            "termek_ar": "1840",
+            "termek_kep_path": "assets/images/termekek/kave_3.webp"
+        }
+    },
+    "en": {
+        "termek_penznem": "USD",
+        "elso_termek":{
+            "termek_nev": "Coffee Frappuccino",
+            "termek_ar": "4.4",
+            "termek_kep_path": "assets/images/termekek/kave_1.webp"
+        },
+        "masodik_termek":{
+            "termek_nev": "Caramel Cream Frappuccino",
+            "termek_ar": "4.4",
+            "termek_kep_path": "assets/images/termekek/kave_2.webp"
+        },
+        "harmadik_termek":{
+            "termek_nev": "Strawberries & Cream Frappuccino",
+            "termek_ar": "4.7",
+            "termek_kep_path": "assets/images/termekek/kave_3.webp"
+        }
+    }
+  }
+  
