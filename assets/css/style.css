@@ -140,7 +140,7 @@ body {
     color: white;
     margin-bottom: 20px;
     font-size: 2.5em;
-  }
+}
   
 .harmadik_szekcio_div_1 {
     position: relative;
@@ -186,7 +186,8 @@ body {
 }
   
 .harmadik_szekcio_gomb {
-    background-color: #fff;
+    background-color: #000;
+    color: #ccc;
     border: 1px solid #ddd;
     border-radius: 50%;
     width: 40px;
@@ -197,9 +198,14 @@ body {
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     position: absolute;
     z-index: 10;
+}
+
+.harmadik_szekcio_gomb:hover {
+    background-color: #fff;
+    color: #000;
 }
   
 .harmadik_szekcio_kozep_h4{
@@ -369,7 +375,8 @@ body {
     }
     
     .harmadik_szekcio_gomb {
-        background-color: #fff;
+        background-color: #000;
+        color: #ccc;
         border: 1px solid #ddd;
         border-radius: 50%;
         width: 40px;
@@ -380,9 +387,14 @@ body {
         font-size: 20px;
         cursor: pointer;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease, color 0.3s ease;
         position: absolute;
         z-index: 10;
+    }
+    
+    .harmadik_szekcio_gomb:hover {
+        background-color: #fff;
+        color: #000;
     }
     
     .harmadik_szekcio_kozep_h4 {
