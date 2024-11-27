@@ -21,6 +21,12 @@
             "navbar_kezdolap_text_webshop": "Kezdőlap",
             "navbar_rolunk_text_webshop": "Rólunk",
             "navbar_webshop_text_webshop": "Webshop"
+        },
+        "kosar":{
+            "navbar_brand_text_kosar": "Ölümposz Kávézó",
+            "navbar_kezdolap_text_kosar": "Kezdőlap",
+            "navbar_rolunk_text_kosar": "Rólunk",
+            "navbar_webshop_text_kosar": "Webshop"
         }
     },
     "en": {
@@ -45,6 +51,12 @@
             "navbar_kezdolap_text_webshop": "Homepage",
             "navbar_rolunk_text_webshop": "About Us",
             "navbar_webshop_text_webshop": "Webshop"
+        },
+        "kosar":{
+            "navbar_brand_text_kosar": "Olympus Café",
+            "navbar_kezdolap_text_kosar": "Homepage",
+            "navbar_rolunk_text_kosar": "About Us",
+            "navbar_webshop_text_kosar": "Webshop"
         }
     }
   }

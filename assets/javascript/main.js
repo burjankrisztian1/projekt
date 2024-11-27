@@ -25,6 +25,11 @@ function text_csere(nyelv, oldal) {
     p_rolunk_szekcio_text_1: 'p_rolunk_szekcio_text_1',
     p_rolunk_szekcio_text_2: 'p_rolunk_szekcio_text_2',
     p_rolunk_szekcio_text_3: 'p_rolunk_szekcio_text_3',
+    navbar_webshop_text_webshop: 'navbar_webshop_text_webshop',
+    navbar_brand_text_kosar: 'navbar_brand_text_kosar',
+    navbar_kezdolap_text_kosar: 'navbar_kezdolap_text_kosar',
+    navbar_rolunk_text_kosar: 'navbar_rolunk_text_kosar',
+    navbar_webshop_text_kosar: 'navbar_webshop_text_kosar'
   };
 
   fetch('assets/adatok/messages.json') //assets/adatok/messages.json
@@ -127,6 +132,23 @@ function valtas_rolunk() {
   }
 }
 
+function valtas_kosar() {
+  if (nem_suti('nyelv') === 'hu') {
+    var zaszlo = document.getElementById('zaszlo');
+    zaszlo.src = 'assets/images/egyeb/usa.png';
+    var zaszlo_2 = document.getElementById('zaszlo_2');
+    zaszlo_2.src = 'assets/images/egyeb/usa.png';
+    localStorage.setItem('nyelv', 'en');
+    text_csere("en", "kosar")
+  }else{
+    var zaszlo = document.getElementById('zaszlo');
+    zaszlo.src = 'assets/images/egyeb/hu.png';
+    var zaszlo_2 = document.getElementById('zaszlo_2');
+    zaszlo_2.src = 'assets/images/egyeb/hu.png';
+    localStorage.setItem('nyelv', 'hu');
+    text_csere("hu", "kosar")
+  }
+}
 
 
 if (!nem_suti("nyelv")) {
@@ -141,4 +163,7 @@ if (window.location.pathname.includes("rolunk.html")) {
 }
 if (window.location.pathname.includes("webshop.html")) {
   text_csere("en", "webshop")
+}
+if (window.location.pathname.includes("kosar.html")) {
+  text_csere("en", "kosar")
 }

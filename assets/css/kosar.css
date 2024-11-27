@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-nav {
+    justify-content: center; 
+}
+
+.nav-item .nav-link {
+    transition: color 0.2s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff7f00;
+}
+
+.footer_szekcio {
+    background-color: #000000;
+    border-top: 1px solid white;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.footer_szekcio .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_szekcio .row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+
+.kosar_szekcio {
+    height: 100vh;
+}
+
+.kosar_text {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav.ms-2.d-sm-inline-block.d-lg-none {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+  
+    .navbar-toggler {
+      margin-left: 10px;
+    }
+}
+  
+
+
+#kosar {
+    max-height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+
+#kosar::-webkit-scrollbar {
+    width: 8px;
+}
+
+#kosar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+#kosar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
